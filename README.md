@@ -13,7 +13,7 @@ In short, Ember Cerebral brings the best of the Flux/React and Ember communities
 
 Installation
 --------------
-- `npm install ember-cerebral --save`
+- `ember install ember-cerebral`
 
 - `ember g ember-cerebral ember-cerebral`
 
