@@ -4,7 +4,8 @@ module.exports = {
 
   afterInstall: function () {
     return this.addPackagesToProject([
-      {name: 'cerebral', target: '3.4.0'}
+      {name: 'cerebral', target: '3.4.0'},
+      {name: '@cerebral/baobab', target: '2.4.0'}
     ]);
   },
 

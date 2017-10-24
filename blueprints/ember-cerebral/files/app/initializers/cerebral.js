@@ -1,8 +1,9 @@
-import {Controller, Model} from 'cerebral'
+import {Controller} from 'cerebral'
 import Devtools from 'cerebral/devtools'
+import BaobabModel from '@cerebral/baobab';
 
 export function initialize(application) {
-  const model       = Model({}, {immutable: false});
+  const model       = BaobabModel({}, {immutable: false});
   const controller  = Controller(model);
   controller.baobab = model.tree;
 

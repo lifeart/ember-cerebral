@@ -21,6 +21,7 @@
     "ember-cli-babel": "^6.6.0"
   },
   "devDependencies": {
+    "@cerebral/baobab": "^2.4.0",
     "broccoli-asset-rev": "^2.4.5",
     "cerebral": "^3.4.0",
     "ember-ajax": "^3.0.0",
