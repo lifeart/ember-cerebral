@@ -40,7 +40,7 @@ export default Mixin.create({
   cursorsByProp(cerebralProps) {
     const cerebral = get(this, 'cerebral');
     const memo = {};
-    this._eachInObject(cerebralProps, (prop, path)) => {
+    this._eachInObject(cerebralProps, (prop, path) => {
       memo[prop] = cerebral.baobab.select(path);
     });
     return memo;
