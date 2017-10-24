@@ -6,7 +6,13 @@ module('Unit | Mixin | cerebral mixin');
 
 // Replace this with your real tests.
 test('it works', function(assert) {
-  let CerebralMixinObject = Ember.Object.extend(CerebralMixinMixin);
+  let CerebralMixinObject = Ember.Object.extend(CerebralMixinMixin,{
+      cerebralProps() {
+        return {
+          'testMe': 'okay'
+        };
+      }
+  });
   let subject = CerebralMixinObject.create();
   assert.ok(subject);
 });
