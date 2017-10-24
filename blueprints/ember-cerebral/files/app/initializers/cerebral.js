@@ -1,6 +1,5 @@
-import Controller from 'npm:cerebral';
-import Model from 'npm:cerebral-model-baobab';
-import Devtools from 'npm:cerebral-module-devtools';
+import {Controller, Model} from 'cerebral'
+import Devtools from 'cerebral/devtools'
 
 export function initialize(application) {
   const model       = Model({}, {immutable: false});
